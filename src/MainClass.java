@@ -3,11 +3,13 @@ import org.junit.Test;
 
 public class MainClass
 {
+    int class_number = 20;
+
     @Test
-    public void getLocalNumber()
+    public void getClassNumber()
     {
-        int number = 14;
-        System.out.println(number);
+        System.out.println(class_number);
+
+        System.out.println(this.class_number);
     }
 }
-
